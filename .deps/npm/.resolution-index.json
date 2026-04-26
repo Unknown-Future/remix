@@ -5,7 +5,7 @@
   "mylearn.sol": {
     "__sources__": {
       "mylearn.sol": {
-        "content": "// SPDX-License-Identifier: MIT",
+        "content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract my_byte {\r\n    \r\n}",
         "file": "mylearn.sol"
       }
     }
