@@ -1,8 +1,13 @@
 {
-  "mylearn.sol": {
-    "__sources__": {}
-  },
   "avb/bv.sol": {
     "__sources__": {}
+  },
+  "mylearn.sol": {
+    "__sources__": {
+      "mylearn.sol": {
+        "content": "// SPDX-License-Identifier: MIT",
+        "file": "mylearn.sol"
+      }
+    }
   }
 }
