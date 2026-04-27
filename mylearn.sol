@@ -2,17 +2,20 @@
 
 pragma solidity ^0.8.0;
 
-contract my_byte {
+contract myLength {
 
-    bytes public x;
-    
-    function my_write() public {
-        // x[0] = 'a';
-        // x[1] = 'c';
-        x = "hello";
-    }
+   string name = "abcdefgh";
 
-    function my_read() public returns(bytes memory) {
-        return x;
-    }
- }
+   // function getLength() public view returns (uint) {
+   //      return name.length;
+   //  }
+
+   // function my_index() public returns(bytes1){
+      
+   //    return name[2];
+   // }
+
+   function my_str_write() public {
+      name[2] = 'a';
+   }
+}

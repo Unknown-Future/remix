@@ -4,7 +4,27 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"mylearn.sol": "my_byte"
+			"mylearn.sol": "my_array"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
