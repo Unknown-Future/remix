@@ -4,18 +4,16 @@ pragma solidity ^0.8.0;
 
 contract myLength {
 
-   string name = "abcdefgh";
+//    string name = "abcdefg";
 
-   // function getLength() public view returns (uint) {
-   //      return name.length;
-   //  }
+    bytes8 color = "black"; 
+    bytes light = ;
 
-   // function my_index() public returns(bytes1){
-      
-   //    return name[2];
-   // }
-
-   function my_str_write() public {
-      name[2] = 'a';
-   }
+    function my_draw() public view returns(uint) {
+        return color.length;
+    }
+    
+    function my_light() public view returns(uint) {
+        return light.length;
+    }
 }

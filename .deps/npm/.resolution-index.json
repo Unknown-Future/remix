@@ -5,7 +5,7 @@
   "mylearn.sol": {
     "__sources__": {
       "mylearn.sol": {
-        "content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract myLength {\r\n\r\n   string name = \"abcdefgh\";\r\n\r\n   // function getLength() public view returns (uint) {\r\n   //      return name.length;\r\n   //  }\r\n\r\n   // function my_index() public returns(bytes1){\r\n      \r\n   //    return name[2];\r\n   // }\r\n\r\n   function my_str_write() public {\r\n      name[2] = 'a';\r\n   }\r\n}",
+        "content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract myLength {\r\n\r\n//    string name = \"abcdefg\";\r\n\r\n    bytes8 color = \"black\"; \r\n    bytes light = ;\r\n\r\n    function my_draw() public view returns(uint) {\r\n        return color.length;\r\n    }\r\n    \r\n    function my_light() public view returns(uint) {\r\n        return light.length;\r\n    }\r\n}",
         "file": "mylearn.sol"
       }
     }

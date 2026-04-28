@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "my_draw",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "my_light",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mylearn.sol": "myLength"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mylearn.sol": {
+			"keccak256": "0x7952802173abe2d64c503f98f6a7c73e0d1ae9230c666917a9806f5f7e60fe3e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d824083624d91abc830e6c04c4025101b98b84407f315bfea9507f11e05fcf2c",
+				"dweb:/ipfs/QmSExZbg24B5BGQmXtMv1bGcbjAPLztH5nYDQCXhEhK5jC"
+			]
+		}
+	},
+	"version": 1
+}
