@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "my_draw",
+				"name": "my_change",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -20,15 +20,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "my_light",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "my_help",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -60,11 +54,11 @@
 	},
 	"sources": {
 		"mylearn.sol": {
-			"keccak256": "0x7952802173abe2d64c503f98f6a7c73e0d1ae9230c666917a9806f5f7e60fe3e",
+			"keccak256": "0x27e9f63f4f37ef89141f830306d50be3dcbd71dff6e239ab9290e7b3696ed4d4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d824083624d91abc830e6c04c4025101b98b84407f315bfea9507f11e05fcf2c",
-				"dweb:/ipfs/QmSExZbg24B5BGQmXtMv1bGcbjAPLztH5nYDQCXhEhK5jC"
+				"bzz-raw://23c83eb7f6dd1ea1ec9d6680fc15722410005ebe978b7c5230a9d52faedfc047",
+				"dweb:/ipfs/QmdXUgtzNaRMgoFsxkkxqLTSpmm2gbqoBhPaMKNxa3Wwuf"
 			]
 		}
 	},
