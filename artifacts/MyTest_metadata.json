@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "a",
+						"type": "bytes4"
+					}
+				],
+				"name": "bytes4_to_str",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "str_to_bytes4",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mylearn.sol": "MyTest"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mylearn.sol": {
+			"keccak256": "0x884423ff32700259b414e4476515f61d0fdee02df12b62ee4b6a229df49c8c92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://39fd9146d89632255607dae907f47ce764f56daf8bc014b7d4ce6570212c1e48",
+				"dweb:/ipfs/QmXU3YWnff2gMpaJhcdpLcafJ6yr8w5DydVYTkeXFQJbYx"
+			]
+		}
+	},
+	"version": 1
+}
