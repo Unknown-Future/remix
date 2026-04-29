@@ -13,12 +13,12 @@
 						"type": "bytes2"
 					}
 				],
-				"name": "bytes2_to_bytes4",
+				"name": "bytes2_to_string",
 				"outputs": [
 					{
-						"internalType": "bytes4",
+						"internalType": "string",
 						"name": "",
-						"type": "bytes4"
+						"type": "string"
 					}
 				],
 				"stateMutability": "pure",
@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"mylearn.sol": {
-			"keccak256": "0xccb62e80ed8f3dce20c2bb002ce1f3ea1ab2a3ebfc3469b281c37246147781b9",
+			"keccak256": "0x044894e6856846d22416564841d65f792f180d794dc329ea7d4fcce79da90fce",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0a3c9ab0c695d4114d1d57f83e05f9950995ad442ffa678832b7a9236bae2f73",
-				"dweb:/ipfs/Qmb4h7boURvSjMm8cEEsgXufuaAbV9XEwmCde6ukU19oQd"
+				"bzz-raw://83faa865ead44620a572bd8f0a7c620689ddb0fe415ac7f72b5a34a52f3802e1",
+				"dweb:/ipfs/Qmb8eXMcbu2av2T7MZJkAeBErK2gZeEVPnfp5Ki1E7k2NZ"
 			]
 		}
 	},
