@@ -3,41 +3,33 @@
 pragma solidity ^0.8.0;
 
 contract myLength {
-
-//    string name = "abcdefg";
-
-    // bytes4 color = 0x12345678; 
-
-    // function my_draw() public view returns(bytes1) {
-    //     return bytes1(color);
-    // }
     
-    // function my_light() public view returns(bytes8) {
-    //     return bytes8(color);
-    // }
-
-    // function my_temp1() public view returns(uint){
-    //     bytes memory temp1 = new bytes(5);
-    //     // temp1[0] = 0x56;
-    //     return temp1.length;
-
-    // }
-
-    // function my_temp2() public view returns(bytes memory){
-    //     bytes memory temp2 = new bytes(5);
-    //     temp2[1] = 0x56;
-    //     return temp2;
-
-    // }
-
-    bytes temp = new bytes(2);
+    // bytes2  a = 0x2134;
     
-    function my_help() public {
-        temp[0] = 0x7a;
-        temp[1] = 0x61;
-    }
-    
-    function my_change() public view returns(string memory) {
-        return string(temp);
+    // function change1() public view returns(string memory) {
+    //     bytes memory b = abi.encodePacked(a); 
+    //     return string(b);
+    //     // return b;
+    // }  
+
+// !!!!!!!!
+    // function change2(bytes2 my_name) public view returns(bytes memory) {
+    //     bytes memory my_newname = new bytes(my_name.length);
+    //     return my_newname;
+    // }
+
+    //奇怪的代码!!!!!!!!!!!!
+    // function bytes2_to_string(bytes2 name) public pure returns(string memory){
+    //     bytes memory my_name = new bytes(name.length);
+    //     for (uint i=0; i<name.length; i++) {
+    //         my_name[i] = name[i];
+    //     }
+    //      return string(my_name); 
+    // }
+
+    // bytes --> bytes2
+    function bytes2_to_bytes4(bytes2 name) public pure returns(bytes4){
+        bytes4 newname = bytes4(name);
+        return newname;
     }
 }
