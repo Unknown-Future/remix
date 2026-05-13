@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_withdrawAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mylearn.sol": "Faucet"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mylearn.sol": {
+			"keccak256": "0xd1a656022273d2918c103b55f0a907f42b7fb0b8974d31a3757868b470266f3a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://71ee7cd0254b9d35d1f481b465f8ed69fca3ffa1eb60fa623dc3f5b8c3b6eff3",
+				"dweb:/ipfs/QmXdYvoW6nbPmucv4xPVopSX3KSB57wKznxNFqAhv3Dpg5"
+			]
+		}
+	},
+	"version": 1
+}

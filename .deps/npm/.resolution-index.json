@@ -8,7 +8,7 @@
   "mylearn.sol": {
     "__sources__": {
       "mylearn.sol": {
-        "content": "// SPDX-License-Identifier: MIT\r\n\r\npragma solidity ^0.8.0;\r\n\r\ncontract MyTest1 {\r\n    \r\n    \r\n}",
+        "content": "pragma solidity ^0.8.0;\r\n// SPDX-License-Identifier: GPL-3.0\r\n\r\n// 我们的第一个合约是一个水龙头！\r\ncontract Faucet {\r\n\r\n    // 向任何请求的人发放以太币\r\n    function withdraw(uint256 _withdrawAmount, address payable _to) public {\r\n\r\n        // 限制提取金额\r\n        require(_withdrawAmount <= 1000000000000);\r\n\r\n        // 将金额发送给请求它的地址\r\n        _to.transfer(_withdrawAmount);\r\n    }\r\n\r\n    // 接收以太币的函数。msg.data 必须为空\r\n    receive() external payable {}\r\n\r\n    // 当 msg.data 不为空时调用的回退函数\r\n    fallback() external payable {}\r\n}\r\n",
         "file": "mylearn.sol"
       }
     }
