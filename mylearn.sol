@@ -8,7 +8,7 @@ contract Faucet {
     function withdraw(uint256 _withdrawAmount, address payable _to) public {
 
         // 限制提取金额
-        require(_withdrawAmount <= 1000000000000);
+        require(_withdrawAmount <= 100000000000000000000000000000000000000000000000000000000);
 
         // 将金额发送给请求它的地址
         _to.transfer(_withdrawAmount);

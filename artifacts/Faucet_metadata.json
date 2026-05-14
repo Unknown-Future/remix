@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"mylearn.sol": {
-			"keccak256": "0xd1a656022273d2918c103b55f0a907f42b7fb0b8974d31a3757868b470266f3a",
+			"keccak256": "0x17ad1a67865a2339609864df94111848c0447f02a20c9546669b96b76f2c4afa",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://71ee7cd0254b9d35d1f481b465f8ed69fca3ffa1eb60fa623dc3f5b8c3b6eff3",
-				"dweb:/ipfs/QmXdYvoW6nbPmucv4xPVopSX3KSB57wKznxNFqAhv3Dpg5"
+				"bzz-raw://fc5a32c85e790654d3d6a8dfcb5aa9572d3481cdbf7ced1629c1b4f4fa58e7f2",
+				"dweb:/ipfs/QmfVQMy4RZtCBjjpsCz9RketreGodm4yTuvnMWvCKBydP7"
 			]
 		}
 	},
